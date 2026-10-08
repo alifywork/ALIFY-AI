@@ -1,0 +1,9 @@
+{
+  "name": "ALIFY WordPress",
+  "version": "0.32.0",
+  "transport": "streamable-http",
+  "mcp_url": "https://YOUR-SITE.example/wp-json/alify-ai/v1/mcp",
+  "oauth_discovery": "https://YOUR-SITE.example/.well-known/oauth-authorization-server",
+  "protected_resource_metadata": "https://YOUR-SITE.example/.well-known/oauth-protected-resource",
+  "legacy_mcp_url": "COPY_PRIVATE_ENDPOINT_FROM_WORDPRESS_ADMIN_ONLY_IF_OAUTH_IS_UNAVAILABLE"
+}
